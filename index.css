@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+Body{
+    justify-content: space-between;
+    display: flex;
+    background-color: white;
+    margin: 0.5rem;
+    padding: 3em;
+    width: 90%;
+    text-align: left;
+    height: auto;
+}
+.heading{
+    padding: 1rem;
+}
+.word{
+    padding: 1rem;
+}
+.Container{
+    display: flex;
+    height: auto;
+    justify-content: space-around;
+    padding: 5rem;
+    width: 60%;
+    margin: 5rem;
+    font-size: 15px;
+
+}
+
+.First {
+    width: 70%;
+    font-weight: 500;
+    justify-content: center;
+    flex-wrap: wrap; 
+    padding: 3rem ;
+    background-color: #ffa500
+
+    
+}
+
+.Second {
+    width: 70%;
+    font-weight: 500;
+    justify-content: center;
+    background-color: lightblue;
+    flex-wrap: wrap;
+    padding: 3rem;
+
+}
+
+.Third {
+    width: 70%;
+    font-weight: 500;
+    justify-content: center;
+    background-color: darkblue;
+    flex-wrap: wrap;
+    padding: 3rem;
+
+    
+}
+
+.One{
+    background-color: #ffa500;
+}
+.Two{
+    background-color: lightblue;
+}
+.Three{
+    background-color: darkblue;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 400;
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+    /*margin: .5rem;*/
+    /*padding: 5px;*/
+    border-color: #f2f2f2;
+    border: none;
+    justify-content: center;
+    display: flex;
+    height: auto;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+   
+}
+
+a:hover{
+    border: groove 2px grey;
+    transition: is ease;
+    background-color: #f2f2f2;
+    box-shadow: 0 0 10px 0 #f2f2f2;
+}
+@media only screen and (max-width: 1024px){
+    .Container {background-color: aqua;}
+.Container{
+    justify-content: left;
+    flex-wrap: wrap;
+    width: 80%;
+}}
+
+@mdia only screen and (max-width: 992px){
+    .Container {background-color: aqua;}
+.Container{
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 120%;
+}}
+
+@media only screen and (max-width: 760px){
+.Container {background-color: aqua;
+justify-content: center;
+flex-wrap: wrap;
+width: 150%;}}
+
+@media only screen and (max-width: 600px){
+    .Container {background-color: aqua;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 160%;}}
+    
